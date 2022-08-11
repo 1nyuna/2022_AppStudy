@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="결과창"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/ppg_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="심박수"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_weight="1"/>
+
+
+    <ImageView
+        android:id="@+id/ppg_graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/ppg_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최대"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/ppg_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최소"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/ppg_aver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="평균"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/spo2_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="산소포화도"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_weight="1"/>
+
+
+    <ImageView
+        android:id="@+id/spo2_graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/spo2_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="최대"
+            />
+
+        <TextView
+            android:id="@+id/spo2_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="최소" />
+
+        <TextView
+            android:id="@+id/spo2_aver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="평균" />
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_st"
+        android:text="go back!!"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

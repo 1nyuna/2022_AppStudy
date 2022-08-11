@@ -1,0 +1,8 @@
+//
+// Created by 82109 on 2022-05-25.
+//
+
+#ifndef MY_APPLICATION_NATIVE_LIB_H
+#define MY_APPLICATION_NATIVE_LIB_H
+
+#endif //MY_APPLICATION_NATIVE_LIB_H
