@@ -1,0 +1,1 @@
+C:\Users\82109\Desktop\ZENA-demo-app\source\opencv\build\intermediates\cxx\RelWithDebInfo\1m6h5h65\obj\arm64-v8a

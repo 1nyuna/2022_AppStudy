@@ -1,0 +1,24 @@
+                    Executable : C:\Users\82109\AppData\Local\Android\Sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HC:\Users\82109\Desktop\ZENA-demo-app\source\opencv\libcxx_helper
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=C:\Users\82109\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\Users\82109\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\82109\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\82109\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\82109\Desktop\ZENA-demo-app\source\opencv\build\intermediates\cxx\RelWithDebInfo\1m6h5h65\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Users\82109\Desktop\ZENA-demo-app\source\opencv\build\intermediates\cxx\RelWithDebInfo\1m6h5h65\obj\x86_64
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-BC:\Users\82109\Desktop\ZENA-demo-app\source\opencv\.cxx\RelWithDebInfo\1m6h5h65\x86_64
+-GNinja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

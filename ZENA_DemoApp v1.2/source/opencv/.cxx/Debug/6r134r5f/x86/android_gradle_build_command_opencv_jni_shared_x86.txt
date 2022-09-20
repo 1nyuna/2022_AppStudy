@@ -1,0 +1,7 @@
+Executable : C:\Users\82109\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\82109\Desktop\ZENA-demo-app\source\opencv\.cxx\Debug\6r134r5f\x86
+opencv_jni_shared
+jvmArgs : 
+
